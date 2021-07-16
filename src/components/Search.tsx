@@ -1,4 +1,3 @@
-import filterList from "../utils/filterList";
 import "./Search.css";
 
 interface SearchProps {
@@ -7,7 +6,7 @@ interface SearchProps {
 
 function Search({ setSearch }: SearchProps): JSX.Element {
   return (
-    <div>
+    <div className="search-container">
       <input
         className="search-bar"
         type="text"
