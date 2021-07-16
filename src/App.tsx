@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Search from "./components/Search";
+import Favourites from "./components/Favourites";
 import DisplayNames from "./components/DisplayNames";
 
 import "./App.css";
@@ -10,6 +11,8 @@ function App() {
   return (
     <div className="App">
       <Search setSearch={setSearch} />
+      <Favourites />
+      <hr/>
       <DisplayNames search={search} />
     </div>
   );
