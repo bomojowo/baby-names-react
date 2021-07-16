@@ -1,4 +1,3 @@
-import babyNames from "../data/babyNamesData.json";
 import "./DisplayNames.css";
 import filterList from "../utils/filterList";
 
